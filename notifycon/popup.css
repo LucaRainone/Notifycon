@@ -1,0 +1,162 @@
+body {
+	min-width:400px;
+	padding-bottom:40px;
+	font-family: Arial, sans-serif;
+	font-size:11px;
+	color:#333;
+}
+
+h1,h2 {
+	font-size: 14px;
+}
+
+.header h1,.header img {
+	float: left;
+}
+
+.header:after {
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+}
+
+.footer {
+	position: fixed;
+	top: 100%;
+	width: 100%;
+	margin-top: -20px;
+	font-size: 9px;
+	text-align: right;
+	left: -10px;
+}
+
+button {
+	cursor: pointer;
+}
+
+.page {
+	display: none;
+}
+
+#notifycon_page_options {
+	width:400px;	
+}
+
+.button{
+	display:inline-block;
+	cursor:pointer;
+	border:1px solid #df0909; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; text-align: center; color: #FFFFFF; background-color: #f62b2b;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f62b2b), color-stop(100%, #d20202));
+	background-image: -webkit-linear-gradient(top, #f62b2b, #d20202);
+	background-image: linear-gradient(top, #f62b2b, #d20202);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f62b2b, endColorstr=#d20202);
+}
+
+.button:hover{
+	cursor:pointer;
+	border:1px solid #b30808; background-color: #e40a0a;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e40a0a), color-stop(100%, #9f0202));
+	background-image: -webkit-linear-gradient(top, #e40a0a, #9f0202);
+	background-image: linear-gradient(top, #e40a0a, #9f0202);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#e40a0a, endColorstr=#9f0202);
+}
+
+.button.grey{
+	display:inline-block;
+	cursor:pointer;
+	border:1px solid #ddd; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px;
+	border-radius: 3px;font-family:arial, helvetica, sans-serif;
+	padding: 5px;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	font-weight:bold; 
+	text-align: center; 
+	color: #FFFFFF; 
+	background-color: #aaa;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aaa), color-stop(100%, #666));
+	background-image: -webkit-linear-gradient(top, #aaa, #666);
+	background-image: linear-gradient(top, #aaa, #666);
+}
+
+.button.grey:hover{
+	cursor:pointer;
+	border:1px solid #aaa; 
+	background-color: #aaa;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aaa), color-stop(100%, #ddd));
+	background-image: -webkit-linear-gradient(top, #aaa, #ddd);
+	background-image: linear-gradient(top, #aaa, #ddd);
+}
+
+.hide_button {
+	border-bottom:dotted 1px #333;
+	cursor:pointer;
+}
+.hide_anchor {
+	text-decoration:none;
+	border:0;
+}
+.margin {
+	margin-top: 30px !important;	
+}
+#notifycon_page_unpinnedtab {
+	width:80%;
+	margin:auto;
+	text-align:center;	
+}
+.example_tab.pinned {
+	width:28px;	
+}
+.example_tab {
+	background-image:url(img/bg_tab.png);
+	width:126px;
+	height:30px;
+	display:block;
+	position:relative;
+	left:-14px;
+	-webkit-transition-property: width;
+	-webkit-transition-duration:0.2s;
+	transition-property: width;
+	transition-duration:0.2s;
+	margin:auto;
+	
+}
+.example_tab.pinned:after {
+	content:"";	
+}
+.example_tab:after {
+	content:"\2715"; /* x button */
+	width: 27px;
+	height:30px;
+	background-image:url(img/bg_tab.png);
+	background-position: -190px 0;
+	float:right;
+	position:relative;
+	left:25px;
+	font-size:12px;
+	font-weight:normal;
+	text-align:left;
+	line-height:24px;
+}
+.current_favicon img {
+	width:16px;
+	height:16px;	
+}
+.example_favicon {
+	position:absolute;
+	top:6px;	
+	left:20px;
+	z-index:2;
+}
+.clear:after,.clear:before {
+	content: " ";
+	font-size:0;
+	clear: both;
+	display: block;
+	visibility: hidden;
+	height: 0;
+}
+
+.center {
+	margin:auto;
+	text-align:center;	
+}

@@ -1,0 +1,21 @@
+{ 
+	"appDesc": {
+		"message": "Show notification count on icon. Only for pinned tabs."
+	},
+
+"disable_notifycon_for_domain" : { "message" : "Disable notifycon for %domainName" },
+  "disabled_tab" : { "message" : "You have disabled this plugin for %domainName" },
+  "doesnt_works_app" : { "message" : "This extension does not works on app, and chrome:// page" },
+  "enable_tab" : { "message" : "Enable tab" },
+  "i_will_try" : { "message" : "It's nice. I will try it" },
+  "just_pinned_1" : { "message" : "It's awesome! Now you have this tab pinned to the left!" },
+  "just_pinned_2" : { "message" : "This is a standard feature of browser. You could do it with right clicking on tab." },
+  "just_pinned_3" : { "message" : "However there is a big problem: the title of web page is hidden. That's really bad because some services like Facebook, Gmail, Yahoo mail and so on, use the title for tell us if there are notifications unread." },
+  "just_pinned_4" : { "message" : "So, Notifycon simply add the number of notifications, generally between parenthesis (), inside the icon. That's all" },
+  "notifycon_option" : { "message" : "Notifycon options" },
+  "pin_now" : { "message" : "Pin now" },
+  "revert_just_try" : { "message" : "Unpin! it was just a try" },
+  "tab_not_pinned" : { "message" : "Current tab is not pinned" },
+  "unpin_tab" : { "message" : "Unpin tab" },
+  "works_only_pinned" : { "message" : "This extension works only for pinned tab" }
+}

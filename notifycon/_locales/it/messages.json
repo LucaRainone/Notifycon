@@ -1,0 +1,22 @@
+{ 
+	"appDesc": {
+		"message": "Aggiunge all'icona del sito il numero delle notifiche non lette. Creato per le schede bloccate."
+	},
+
+"disable_notifycon_for_domain" : { "message" : "Disabilita Notifycon per %domainName" },
+  
+"disabled_tab" : { "message" : "Hai disabilitato questo plugin per %domainName" },
+"doesnt_works_app" : { "message" : "Questa estensione non funziona con le schede di app e con le pagine di tipo chrome://" },
+"enable_tab" : { "message" : "Abilita Notifycon per questo tab" },
+"i_will_try" : { "message" : "Ok. Voglio continuare" },
+"just_pinned_1" : { "message" : "Perfetto! Ora hai la scheda bloccata sulla sinistra" },
+"just_pinned_2" : { "message" : "Questa è una opzione standard del browser: avresti potuto farlo anche cliccando col tasto destro sulla scheda e scegliere l'opzione blocca." },
+"just_pinned_3" : { "message" : "Il problema che Notifycon intende risolvere è quello di avere l'informazione delle notifiche non lette (generalmente per facebook, gmail. yahoo e i social in genere) sempre disponibile." },
+"just_pinned_4" : { "message" : "Notifycon aggiunge questa informazione, generalmente racchiusa tra parentesi tonde, nella icona della scheda. Tutto qui" },
+  "notifycon_option" : { "message" : "Opzioni Notifycon" },
+  "pin_now" : { "message" : "Blocca la scheda" },
+  "revert_just_try" : { "message" : "Sblocca. Era solo una prova" },
+  "tab_not_pinned" : { "message" : "La scheda corrente non è bloccata." },
+  "unpin_tab" : { "message" : "Sblocca la scheda" },
+  "works_only_pinned" : { "message" : "Questa estensione funziona solo con le schede bloccate" }
+}

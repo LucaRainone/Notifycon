@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<link href="popup.css" rel="stylesheet" />
+		<script type="text/javascript" src="js/Rain1/Overlay.js"></script>
+		<script type="text/javascript" src="popup.js"></script>
+	</head>
+	<body>
+	
+		<!-- PAGE PINNED TAB: OPTIONS -->
+		<div id="notifycon_page_options" class="page">
+			<div class="section">
+			<h1 class="i18n" data-text="Notifycon options" data-key="notifycon_option"></h1>
+				<button class="button i18n grey action_disable_domain" data-text="Disable notifycon for $domainName" data-key="disable_notifycon_for_domain" id="disable_domain"></button>
+				<!-- <button>Disable only <span class="fullPath"></span></button> -->
+				<button class="action_unpin_tab i18n button grey" data-text="Unpin tab" data-key="unpin_tab"></button>
+				
+			</div>
+		</div>
+		
+		<!-- PAGE NORMAL TAB: PIN NOW -->
+		<div id="notifycon_page_unpinnedtab" class="page">
+			<h1 class="i18n" data-text="Current tab is not pinned" data-key="tab_not_pinned"></h1>
+			<div class="example_tab normal">
+				<div class="current_favicon example_favicon"></div>
+			</div>
+			<h2 class="i18n" data-text="This extension works only for pinned tab"  data-key="works_only_pinned"></h2>
+			<div class="clear">
+				<a class="i18n button green action_pin_tab" data-text="Pin now" data-key="pin_now" id="action_pin_tab_not_pinned"></a>
+			</div>
+		</div>
+		
+		<!-- PAGE NORMAL TAB: JUST PINNED -->
+		<div id="notifycon_page_justpinned" class="page">
+			<p class="i18n" data-text="It's awesome! Now you have this tab pinned to the left!" data-key="just_pinned_1"></p>
+			<div class="example_tab normal pinned">
+				<div class="current_favicon example_favicon"></div>
+			</div>
+			<div class="clear">
+				<p class="i18n" data-text="This is a standard feature of browser. You could do it with right clicking on tab." data-key="just_pinned_2"></p>
+				<p class="i18n" data-text="However there is a big problem: the title of web page is hidden. That's really bad because some services like Facebook, Gmail, Yahoo mail and so on, use the title for tell us if there are notifications unread." data-key="just_pinned_3"></p>
+				<p class="i18n" data-text="So, Notifycon simply add the number of notifications, generally between parenthesis (), inside the icon. That's all" data-key="just_pinned_4"></p>
+			</div>
+			<div class="clear"></div>
+			<div class="example_tab normal pinned">
+				<div class="current_favicon example_favicon demo"></div>
+			</div>
+			<div class="clear center margin">
+				<span class="i18n green action_unpin_tab hide_button" data-action="just-try" data-text="Unpin! it was just a try" data-key="revert_just_try"></span>
+&nbsp;&nbsp;&nbsp;
+				<button class="i18n button green action_close" data-text="It's nice. I will try it"  data-key="i_will_try"></button>
+			</div>
+		</div>
+		
+		<!-- PAGE DOES NOT WORKS ON SPECIAL PAGE -->
+		<div id="notifycon_page_warning" class="page">
+			<div class="header">
+				<img src="img/48.png" />
+				<h1>Notifycon warning</h1>
+			</div>
+			<div class="section">
+				<p class="i18n" data-text="This extension does not works on app, and chrome:// page" data-key="doesnt_works_app"></p>
+			</div>
+		</div>
+		
+		
+		<!-- PAGE DISABLED -->
+		<div id="notifycon_page_disabled" class="page">
+			<div class="header">
+				<h1 data-text="You have disabled this plugin for $domainName" id="title_page_disabled" class="i18n" data-key="disabled_tab"></h1>
+			</div>
+			<div class="clear">
+				<a class="i18n button green action_enable_domain" data-text="Enable tab" data-key="enable_tab" ></a>
+			</div>
+		</div>
+
+		<div class="footer">
+		    <a href="https://twitter.com/chumkiu81" class="hide_anchor social"><img src="img/twitter.png" /></a>
+            <!--<a href="#" class="reset_tutorial" id="reset_tutorial">Reset Tutorial</a>-->
+		</div>
+	</body>
+</html>
