@@ -4,9 +4,9 @@
   "description": "__MSG_appDesc__",
   "manifest_version": 2,
   "permissions": [
-    "tabs", "http://*/*", "https://*/*", "webNavigation","storage"
+    "tabs", "http://*/*", "https://*/*","storage"
 ],
-  "version": "0.7.0",
+  "version": "0.8.0",
   "icons": { "128": "img/128.png", "16":"img/16.png", "48":"img/48.png" },
 
   "background": {"scripts":["js/Rain1/Overlay.js","background.js"]},

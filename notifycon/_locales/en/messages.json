@@ -5,7 +5,7 @@
 
 "disable_notifycon_for_domain" : { "message" : "Disable notifycon for %domainName" },
   "disabled_tab" : { "message" : "You have disabled this plugin for %domainName" },
-  "doesnt_works_app" : { "message" : "This extension does not works on app, and chrome:// page" },
+  "doesnt_works_app" : { "message" : "This extension does not works on app, and browser internal page" },
   "enable_tab" : { "message" : "Enable tab" },
   "i_will_try" : { "message" : "It's nice. I will try it" },
   "just_pinned_1" : { "message" : "It's awesome! Now you have this tab pinned to the left!" },

@@ -6,7 +6,7 @@
 "disable_notifycon_for_domain" : { "message" : "Disabilita Notifycon per %domainName" },
   
 "disabled_tab" : { "message" : "Hai disabilitato questo plugin per %domainName" },
-"doesnt_works_app" : { "message" : "Questa estensione non funziona con le schede di app e con le pagine di tipo chrome://" },
+"doesnt_works_app" : { "message" : "Questa estensione non funziona con le schede di app e con le pagine native del browser" },
 "enable_tab" : { "message" : "Abilita Notifycon per questo tab" },
 "i_will_try" : { "message" : "Ok. Voglio continuare" },
 "just_pinned_1" : { "message" : "Perfetto! Ora hai la scheda bloccata sulla sinistra" },
