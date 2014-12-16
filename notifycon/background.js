@@ -19,7 +19,6 @@ function setDisabledDomains(r) {
 }
 
 var _f = function(first) {
-	console.log("_f called");
 	chrome.tabs.query({pinned:true}, function (tabs) {
 		for(var i = 0; i<tabs.length; i++) {
 			for(var j = 0; j<disabledDomains.length; j++) {
