@@ -1,0 +1,21 @@
+{
+  "appDesc": {
+    "message": "Megjeleníti az értesítések számát az ikonon. Csak rögzített füleken mûködik."
+  },
+
+  "disable_notifycon_for_domain" : { "message" : "A Notifycon letiltása a itt: %domainName" },
+  "disabled_tab" : { "message" : "A Notifycon le van tiltva itt: %domainName" },
+  "doesnt_works_app" : { "message" : "Ez a bõvítmény nem mûködik az alkalmazások és a böngészõ belsõ lapjai esetén." },
+  "enable_tab" : { "message" : "Fül engedélyezése" },
+  "i_will_try" : { "message" : "Ez tetszik. Kipróbálom!" },
+  "just_pinned_1" : { "message" : "Nagyszerû! Éppen most rögzítetted ezt a lapfület a bal oldalra." },
+  "just_pinned_2" : { "message" : "Ez egy beépített funkció a böngészõben. Ha jobb gombbal kattintasz a lapfülön, ott is meg tudod csinálni." },
+  "just_pinned_3" : { "message" : "Viszont van egy nagy probléma. A weboldal címe eltûnt. Ez azért rossz, mert néhány weboldal (például a Facebook, a Gmail vagy a Yahoo mail) itt jelzi, ha új értesítést kapsz." },
+  "just_pinned_4" : { "message" : "A Notifycon egyszerûen megjeleníti az új értesítések számát az ikonon." },
+  "notifycon_option" : { "message" : "A Notifycon beállításai" },
+  "pin_now" : { "message" : "Rögzítés!" },
+  "revert_just_try" : { "message" : "Feloldás! Csak ki akartam próbálni." },
+  "tab_not_pinned" : { "message" : "Ez a lapfül nincs rögzítve." },
+  "unpin_tab" : { "message" : "Lapfül feloldása" },
+  "works_only_pinned" : { "message" : "Ez a bövítmény csak a rögzített lapfüleken mûködik." }
+}
